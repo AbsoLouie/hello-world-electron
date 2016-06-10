@@ -7,7 +7,7 @@ let window
 function createWindow () {
   window = new BrowserWindow({width: 800, height: 600})
 
-  window.loadURL(`file://${_dirname}/index.html`)
+  window.loadURL(`file://${__dirname}/index.html`)
 
   window.webContents.openDevTools()
 
